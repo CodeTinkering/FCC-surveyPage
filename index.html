@@ -13,8 +13,23 @@
   <p id="description">This is the second HTLM/CSS challenge from FreeCodeCamp. I have to make a survey form. Let's get
     building.</p>
   <div class="form-container">
-    <form id="suvey-form">
-      <button type="submit" id="submit">Submit</button>
+    <form id="survey-form">
+      <label for="name" id="name-label">Name</label><br>
+      <input type="text" id="name" placeholder="Enter your name" required><br>
+      <label for="email" id="email-label">Email</label><br>
+      <input type="email" id="email" placeholder="Enter your Email address" required><br>
+      <label for="number" id="numbel-label">Age (optional)</label><br>
+      <input type="number" id="number" min="5" max="120" placeholder="Age"><br>
+      <label for="dropdown"></label>
+      <select name="current-role" id="dropdown">
+        <option value="selectCurrentRole">Select current role</option>
+        <option value="student">Student</option>
+        <option value="fullTimeJob">Full time job</option>
+        <option value="fullTimeLearner">Full time learner</option>
+        <option value="preferNotToSay">Prefer not to say</option>
+        <option value="other">Other</option>
+      </select><br>
+      <button id="submit" type="submit">Submit</button>
     </form>
   </div>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
