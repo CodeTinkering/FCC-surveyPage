@@ -22,13 +22,22 @@
       <input type="number" id="number" min="5" max="120" placeholder="Age"><br>
       <label for="dropdown"></label>
       <select name="current-role" id="dropdown">
-        <option value="selectCurrentRole">Select current role</option>
+        <option value="" disabled selected hidden>Select current role</option>
         <option value="student">Student</option>
         <option value="fullTimeJob">Full time job</option>
         <option value="fullTimeLearner">Full time learner</option>
         <option value="preferNotToSay">Prefer not to say</option>
         <option value="other">Other</option>
       </select><br>
+      <div class="recommend">
+        <h3>Would you recommend our service to your friends?</h3>
+        <input type="radio" id="absolutely" name="reco" value="absolutely">
+        <label for="absolutely">Absolutely</label><br>
+        <input type="radio" id="whyNot" name="reco" value="whyNot">
+        <label for="whyNot">Why not</label><br>
+        <input type="radio" id="notSure" name="reco" value="notSure">
+        <label for="notSure">Not sure</label><br>
+      </div>
       <button id="submit" type="submit">Submit</button>
     </form>
   </div>

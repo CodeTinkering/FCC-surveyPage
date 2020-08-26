@@ -9,7 +9,3 @@ html {
 body {
   background: rgb(186, 132, 218);
 }
-.form-container {
-  display: flex;
-  flex-direction: column;
-}
