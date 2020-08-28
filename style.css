@@ -5,7 +5,25 @@
 }
 html {
   font-size: 62.5%;
+  font-family: 'Courier New', Courier, monospace;
 }
 body {
-  background: rgb(186, 132, 218);
+  background: rgba(186, 132, 218, 0.3);
+}
+h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+label {
+  font-size: 1.8rem;
+}
+#title {
+  font-size: 3.2rem;
+  text-align: center;
+  padding: 2rem;
+}
+#description {
+  font-size: 2.4rem;
+  justify-items: center;
+  text-align: center;
 }
