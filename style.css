@@ -8,6 +8,7 @@ html {
   font-family: 'Courier New', Courier, monospace;
 }
 body {
+  height: 100%;
   background: rgba(186, 132, 218, 0.3);
 }
 h3 {
@@ -17,13 +18,19 @@ h3 {
 label {
   font-size: 1.8rem;
 }
+.bg-img {
+  background-image: url('DSC00084.jpg');
+  height: 100%;
+  background-position: center;
+}
 #title {
   font-size: 3.2rem;
   text-align: center;
   padding: 2rem;
+  margin-top: 5rem;
 }
 #description {
   font-size: 2.4rem;
-  justify-items: center;
   text-align: center;
+  margin: 2rem 5rem;
 }
