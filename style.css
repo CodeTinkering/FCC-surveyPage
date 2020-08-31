@@ -9,7 +9,7 @@ html {
 }
 body {
   height: 100%;
-  background: rgba(186, 132, 218, 0.3);
+  /*background: rgba(186, 132, 218, 0.3);*/
 }
 h3 {
   font-size: 2rem;
@@ -19,7 +19,7 @@ label {
   font-size: 1.8rem;
 }
 .bg-img {
-  background-image: url('DSC00084.jpg');
+  background-image: url('./images/DSC00084.jpg');
   height: 100%;
   background-position: center;
 }
