@@ -9,53 +9,56 @@
 </head>
 
 <body>
-  <div class="bg-img"></div>
-  <h1 id="title">My FCC Survey page</h1>
-  <p id="description"><em>This is the second HTLM/CSS challenge from FreeCodeCamp. I have to make a survey form.
-      Let's get
-      building.</em></p>
-  <div class="form-container">
-    <form id="survey-form">
-      <label for="name" id="name-label">Name</label><br>
-      <input type="text" id="name" placeholder="Enter your name" required><br>
-      <label for="email" id="email-label">Email</label><br>
-      <input type="email" id="email" placeholder="Enter your Email address" required><br>
-      <label for="number" id="number-label">Age (optional)</label><br>
-      <input type="number" id="number" min="5" max="120" placeholder="Age"><br>
-      <label for="dropdown">What is you current role?</label><br>
-      <select name="current-role" id="dropdown">
-        <option value="" disabled selected hidden>Select current role</option>
-        <option value="student">Student</option>
-        <option value="fullTimeJob">Full time job</option>
-        <option value="fullTimeLearner">Full time learner</option>
-        <option value="preferNotToSay">Prefer not to say</option>
-        <option value="other">Other</option>
-      </select><br>
-      <div class="recommend">
-        <h3>Would you recommend our service to your friends?</h3>
-        <input type="radio" id="absolutely" name="reco" value="absolutely">
-        <label for="absolutely">Absolutely</label><br>
-        <input type="radio" id="whyNot" name="reco" value="whyNot">
-        <label for="whyNot">Why not</label><br>
-        <input type="radio" id="notSure" name="reco" value="notSure">
-        <label for="notSure">Not sure</label><br>
-      </div>
-      <div class="goal">
-        <h3>What kind of programming job are you looking for?</h3>
-        <input type="checkbox" id="front-end" value="front-end developer">
-        <label for="front-end">Front-end developer</label><br>
-        <input type="checkbox" id="back-end" value="back-end developer">
-        <label for="front-end">Back-end developer</label><br>
-        <input type="checkbox" id="fullstack" value="fullstack developer">
-        <label for="front-end">Fullstack developer</label><br>
-      </div>
-      <div class="whatelse">
-        <label for="else">What else should we know about you?</label><br>
-        <textarea name="comments" id="else" cols="30" rows="10">Anything else we should know?</textarea>
-      </div>
+  <div class="bg-img">
+    <div class="text">
+      <h1 id="title">My FCC Survey page</h1>
+      <p id="description"><em>This is the second HTLM/CSS challenge from FreeCodeCamp. I have to make a survey form.
+          Let's get
+          building.</em></p>
+      <div class="form-container">
+        <form id="survey-form">
+          <label for="name" id="name-label">Name</label><br>
+          <input type="text" id="name" placeholder="Enter your name" required><br>
+          <label for="email" id="email-label">Email</label><br>
+          <input type="email" id="email" placeholder="Enter your Email address" required><br>
+          <label for="number" id="number-label">Age (optional)</label><br>
+          <input type="number" id="number" min="5" max="120" placeholder="Age"><br>
+          <label for="dropdown">What is you current role?</label><br>
+          <select name="current-role" id="dropdown">
+            <option value="" disabled selected hidden>Select current role</option>
+            <option value="student">Student</option>
+            <option value="fullTimeJob">Full time job</option>
+            <option value="fullTimeLearner">Full time learner</option>
+            <option value="preferNotToSay">Prefer not to say</option>
+            <option value="other">Other</option>
+          </select><br>
+          <div class="recommend">
+            <h3>Would you recommend our service to your friends?</h3>
+            <input type="radio" id="absolutely" name="reco" value="absolutely">
+            <label for="absolutely">Absolutely</label><br>
+            <input type="radio" id="whyNot" name="reco" value="whyNot">
+            <label for="whyNot">Why not</label><br>
+            <input type="radio" id="notSure" name="reco" value="notSure">
+            <label for="notSure">Not sure</label><br>
+          </div>
+          <div class="goal">
+            <h3>What kind of programming job are you looking for?</h3>
+            <input type="checkbox" id="front-end" value="front-end developer">
+            <label for="front-end">Front-end developer</label><br>
+            <input type="checkbox" id="back-end" value="back-end developer">
+            <label for="front-end">Back-end developer</label><br>
+            <input type="checkbox" id="fullstack" value="fullstack developer">
+            <label for="front-end">Fullstack developer</label><br>
+          </div>
+          <div class="whatelse">
+            <label for="else">What else should we know about you?</label><br>
+            <textarea name="comments" id="else" cols="30" rows="10">Anything else we should know?</textarea>
+          </div>
 
-      <button id="submit" type="submit">Submit</button>
-    </form>
+          <button id="submit" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
   </div>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
