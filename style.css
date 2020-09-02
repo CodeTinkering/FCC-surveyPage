@@ -11,17 +11,27 @@ body {
   height: 100%;
 }
 .bg-img {
-  background: url('/images/DSC00084.jpg');
+  background: url('/images/D71_0895.jpg');
   min-height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  filter: blur(0.1rem);
-  -webkit-filter: blur(0.1rem);
+  filter: blur(0.3rem);
+  -webkit-filter: blur(0.3rem);
   color: black;
 }
-.text {
-  z-index: 2;
+.container {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  padding: 2rem;
 }
 h3 {
   font-size: 2rem;
