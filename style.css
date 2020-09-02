@@ -11,10 +11,8 @@ body {
   height: 100%;
 }
 .bg-img {
-  background: url('/images/D71_0895.jpg');
+  background: url('/images/D71_0895.jpg') no-repeat center center fixed;
   min-height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
   filter: blur(0.3rem);
   -webkit-filter: blur(0.3rem);
@@ -39,16 +37,14 @@ h3 {
   font-weight: 700;
 }
 label {
-  font-size: 2.8rem;
-  display: flex;
+  font-size: 1.8rem;
 }
 input,
 textarea,
 select {
   border-radius: 0.5rem;
   width: 60%;
-  display: flex;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 #title {
   font-size: 3.2rem;
